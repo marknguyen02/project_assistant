@@ -1,4 +1,38 @@
-.env
+# Virtual environment
 .venv
-.vscode
-__pycache__
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs & database
+logs/
+*.log
+*.sqlite3
+
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+*.pid
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# MyPy cache
+.mypy_cache/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Sphinx documentation
+docs/_build/
+
+private_key.pem
+public_key.pem
+
+/models/
